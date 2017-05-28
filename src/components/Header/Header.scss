@@ -1,0 +1,60 @@
+@import 'base';
+
+.logowrap h1 {
+    margin: 0;
+}
+
+.desktop-nav-wrap {
+    margin-top: 20px;
+
+    .desktop-nav {
+        display: block;        
+    }
+}
+
+.logowrap {
+    margin: 0;
+    a {
+        font-size: 32px;
+        font-weight: 100;
+        color: $red;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    
+}
+
+nav {
+    width: auto;
+    font-family: 'Andale Mono';
+    font-size: 16px;
+    ul {
+        padding: 0;
+        margin: 10px 0;
+        li {
+            display: inline-block;
+            margin: 0 30px;
+        }
+    }
+}
+
+@media ( max-width: 715px) {
+    .logowrap a {
+        font-size: 1.8rem;
+    }
+}
+
+@media ( max-width: 695px) {
+    .logowrap {
+        width: 100%;
+        text-align: center;
+    }
+    .desktop-nav-wrap .desktop-nav {
+        display: none;
+    }
+
+}

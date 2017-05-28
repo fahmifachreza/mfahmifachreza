@@ -1,0 +1,32 @@
+@import 'base';
+
+.mobile-nav-wrap {
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    border-top: 1px solid #eee;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.mobile-nav-list {
+    padding: 0;
+    display: table;
+    margin: 30px auto;
+    li {
+        display: table-cell;
+        width: 20%;
+        a {
+            padding: 30px;   
+            font-family: 'Andale Mono',monospace;      
+        }
+    }
+
+}
+
+@media (max-width: 695px) {
+     .mobile-nav-wrap {
+        display: block;
+    }
+}

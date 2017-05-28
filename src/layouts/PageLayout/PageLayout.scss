@@ -1,0 +1,40 @@
+@import 'base';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Seravek', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Seravek-Bold', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+    padding: 10px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    outline: none;
+}
+
+.col,
+.col-right {
+    box-sizing: border-box;
+    float: left;
+    margin: initial;
+    max-width: initial;
+}
