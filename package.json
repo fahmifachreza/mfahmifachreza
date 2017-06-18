@@ -4,6 +4,10 @@
   "version": "0.0.1",
   "private": true,
   "main": "index.js",
+  "engines":{
+    "node": "6.10.0",
+    "npm": "3.10.10",
+  },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha",
     "compression": "^1.6.2",
