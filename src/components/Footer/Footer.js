@@ -4,12 +4,7 @@ import { IndexLink, Link } from 'react-router'
 import { browserHistory, Router } from 'react-router'
 import './Footer.scss'
 
-
-
 class Footer extends React.Component {
-  static propTypes = {
-    routes: PropTypes.object.isRequired,
-  }
 
   shouldComponentUpdate () {
     return false

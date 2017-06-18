@@ -4,13 +4,7 @@ import { IndexLink, Link } from 'react-router'
 import { browserHistory, Router } from 'react-router'
 import './MobileHeader.scss'
 
-
-
 class MobileHeader extends React.Component {
-  static propTypes = {
-    routes: PropTypes.object.isRequired,
-  }
-
   shouldComponentUpdate () {
     return false
   }
